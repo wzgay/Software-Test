@@ -2,16 +2,16 @@
 pipeline {
     agent any
     environment {
-        GITURL = 'https://gitee.com/linge365/springboot-demo.git'
-        SERVER = 'test'
-        REMOTEDIR = '/test'
-        SOURCE_FILE = 'target/springboot-demo-0.1.jar'
+        GITURL = 'https://github.com/wzgay/Software-Test.git'
+        SERVER = 'software-test'
+        REMOTEDIR = '/software-test'
+        SOURCE_FILE = 'target/demo-0.0.1-SNAPSHOT.jar'
         PREFIX = 'target'
         COMPLETE_EXEC_SHELL = '/etc/init.d/springboot-demo.sh restart'
     }
     tools {
-        maven "mvn"
-        jdk 'jdk8'
+        maven "maven"
+        jdk 'jdk'
     }
     stages {
 //        stage('获取代码') {
