@@ -1,6 +1,5 @@
 package com.example.demo.service;
 
-import com.example.demo.dao.Info;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +14,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class InternationalBaggageTest1{
+public class InternationalBaggageOtherTest {
 
     InternationalBaggage internationalBaggage;
     private double expected;
@@ -50,7 +49,7 @@ public class InternationalBaggageTest1{
         });
     }
 
-    public InternationalBaggageTest1(double expected, Integer[] baagage_type, double weight) {
+    public InternationalBaggageOtherTest(double expected, Integer[] baagage_type, double weight) {
         this.expected = expected;
         this.baagage_type = baagage_type;
         this.weight = weight;
