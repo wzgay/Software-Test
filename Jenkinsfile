@@ -3,7 +3,7 @@ pipeline {
     agent any
     environment {
         GITURL = 'https://github.com/wzgay/Software-Test.git'
-        SERVER = 'software-test'
+        SERVER = 'test'
         REMOTEDIR = '/software-test'
         SOURCE_FILE = 'target/demo-0.0.1-SNAPSHOT.jar'
         PREFIX = 'target'
