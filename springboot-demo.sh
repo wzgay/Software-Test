@@ -1,6 +1,6 @@
 #!/bin/sh
 #替换这里jar包的路径，根据实际修改
-APP_NAME=/test/software-test/demo-0.0.1-SNAPSHOT.jar
+APP_NAME=/home/cug44/jenkins_mount/workspace/test/software-test/demo-0.0.1-SNAPSHOT.jar
 
 #使用说明，用来提示输入参数
 usage() {
