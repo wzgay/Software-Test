@@ -7,7 +7,7 @@ pipeline {
         REMOTEDIR = '/software-test'
         SOURCE_FILE = 'target/demo-0.0.1-SNAPSHOT.jar'
         PREFIX = 'target'
-        COMPLETE_EXEC_SHELL = '/etc/init.d/springboot-demo.sh restart'
+        COMPLETE_EXEC_SHELL = '/springboot-demo.sh restart'
     }
     tools {
         maven "maven"
